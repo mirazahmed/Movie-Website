@@ -1,0 +1,105 @@
+
+* {
+margin: 0;
+padding: 0;
+font-family: 'Architects Daughter', cursive;
+}
+
+.fa-film{
+	padding: 0 0 0 5rem;
+	font-size: 2rem;
+	color: #fc0f0f;
+}
+
+#top-Area{
+    background-color: #faedeb;
+    padding: 1.5rem 0 1.5rem 0rem;
+}
+
+#senecaMovies, #navBar{
+    display: inline;
+}
+
+#senecaMovies{
+    color: #fc0f0f;
+    padding: 0 0 0 0;
+}
+
+#navBar{
+ padding: 0 8rem 0 30rem;
+  }
+
+#home, #About, #latestMovies{
+	color:red;
+	text-decoration: none;
+}
+
+#infoPromo{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 2rem;
+}
+
+#aboutUs{
+	font-family: 'Architects Daughter', cursive;
+	text-align: center;
+	color: white;
+}
+
+#informationSection > p{
+	padding: 2rem 5rem 5rem 5rem;
+	font-size: 1.5rem;
+	text-shadow: 1px;
+}
+
+#promotion{
+	font-family: 'Architects Daughter', cursive;
+	text-align: center;
+	color: white;
+}
+
+#promotionSection > p{
+	padding: 2rem 10rem 5rem 5rem;
+	font-size: 1.5rem;
+	text-shadow: 1px;
+}
+
+.information{
+	color: white;
+}
+
+#infoPromo{
+    height: 600px;
+    padding: 3rem 0 0 0;
+    background-image: url("./images/background3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#promotionSection > p > a{
+	text-decoration: none;}
+
+footer{
+    text-align: center;
+    height: 30px;
+    padding: 1rem 0 1rem 0;
+    background-color: #444444;
+}
+
+.linkedIn{
+padding: 0 1rem 0 1rem;
+color: white;
+}
+.facebook{
+color : white;
+padding: 0  1rem 0 0;
+}
+.twitter{
+padding: 0  1rem 0 0;
+color: white;
+}
+.googleplus{
+padding: 0  1rem 0 0;
+color: white;
+}
